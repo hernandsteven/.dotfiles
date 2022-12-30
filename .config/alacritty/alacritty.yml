@@ -1,0 +1,26 @@
+# Attach or create tmux session upon bootup
+# shell:
+#   program: /bin/zsh
+#   args:
+#     - --login
+#     - -c
+#     - tmux new-session -A -s main
+
+live_config_reload: true
+
+window:
+  dimensions:
+    columns: 120
+    lines: 35
+  opacity: 0.95
+  padding:
+    x: 10
+    y: 0
+  dynamic_padding: false
+  decorations: buttonless
+
+font:
+  normal:
+    family: "MonoLisa Nerd Font Mono"
+    style: Regular
+  size: 14.5
