@@ -90,6 +90,12 @@ lspconfig["tailwindcss"].setup({
 	on_attach = on_attach,
 })
 
+-- configure rust server
+lspconfig["rust_analyzer"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
 -- configure emmet language server
 lspconfig["emmet_ls"].setup({
 	capabilities = capabilities,

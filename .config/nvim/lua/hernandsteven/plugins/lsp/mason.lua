@@ -24,6 +24,7 @@ mason_lspconfig.setup({
 		"sumneko_lua",
 		"emmet_ls",
 		"pylsp",
+		"rust_analyzer",
 	},
 })
 
