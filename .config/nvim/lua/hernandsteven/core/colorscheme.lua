@@ -37,6 +37,7 @@ Group.new("BufferDefaultVisibleSign", nil, nil)
 Group.new("BufferCurrent", nil, nil)
 Group.new("BufferCurrentSign", nil, nil)
 Group.new("BufferVisibleSign", nil, nil)
+Group.new("BufferCurrentMod", nil, nil)
 
 --NvimTree highlight groups
 Group.new("NvimTreeNormal", nil, nil) -- Background color for nvim tree
