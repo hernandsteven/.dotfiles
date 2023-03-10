@@ -26,7 +26,6 @@ end
 
 --plugins
 return packer.startup(function(use)
-	--my plugins
 	use("wbthomason/packer.nvim") --nvim
 	use("joshdick/onedark.vim") -- colorscheme: onedark
 	use("bluz71/vim-nightfly-colors")
@@ -73,7 +72,10 @@ return packer.startup(function(use)
 	--configuring lsp servers
 	use("neovim/nvim-lspconfig")
 	use("hrsh7th/cmp-nvim-lsp")
-	use({ "glepnir/lspsaga.nvim", branch = "main" })
+	use({
+		"glepnir/lspsaga.nvim",
+		branch = "main",
+	})
 	use("jose-elias-alvarez/typescript.nvim") -- typescrpt added functionality
 	use("onsails/lspkind.nvim")
 

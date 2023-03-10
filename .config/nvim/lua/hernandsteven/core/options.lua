@@ -24,6 +24,7 @@ vim.api.nvim_create_autocmd("BufWinLeave", {
 	end,
 })
 
+opt.colorcolumn = "100"
 opt.foldcolumn = "0"
 opt.signcolumn = "yes"
 opt.mouse = "a" -- Enable mouse support
